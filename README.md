@@ -28,7 +28,7 @@ Si desea descargar el código fuente y ejecutarlo en su máquina local, siga est
 1. Clone este repositorio en su máquina local utilizando el siguiente comando:
 
 ```
-git clone https://github.com/dreschpedro/pagina_vecino_sustentable.git
+git clone https://dreschpedro.github.io/pagina_vecino_sustentable/
 ```
 
 
