@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <!-- ############################################### -->
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">Vecino Sustentable.</h1>
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="./inicio.html" class="menu__link">Inicio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./juegos.html" class="menu__link">Juegos</a>
+                </li>
+
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">About<img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="./nosotros.html" class="menu__link menu__link--inside">Nosotros</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="ecopunto.html" class="menu__link menu__link--inside">Ecopuntos</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="./residuo.html" class="menu__link menu__link--inside">Residuos</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="galeria.html" class="menu__link menu__link--inside">Galería</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="./videos.html" class="menu__link menu__link--inside">Videos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a href="./contacto.html" class="menu__link">Contacto</a>
+                </li>
+                <li class="menu__item">
+                    <a href="login.html" class="menu__link">Iniciar Sesión</a>
+                </li>
+
+            </ul>
+
+            <div class="menu__hamburguer">
+                <img src="assets/menu.svg" class="menu__img">
+            </div>
+        </section>
+    </nav>
+
+    <script src="./js/app.js"></script>
+    <!-- ############################################### -->
+
+    <div class="container">
+        <div class="cont__img">
+            <div class="texto">
+                <h2>Contacta</h2>
+                <h2>Con</h2>
+                <h2>Nosotros</h2>
+            </div>
+        </div>
+        <div class="cont__form">
+            <div class="formulario">
+                <div class="wea wea1">
+                    <p class="texto">Nombre</p>
+                    <input class="i_chico" type="text" value="" placeholder="Nombre y Apellido">
+                </div>
+                <div class="wea wea2">
+                    <p class="texto">Teléfono</p>
+                    <input class="i_chico" type="tel" value="" placeholder="+54 9 1324 5456">
+                </div>
+                <div class="wea wea3">
+                    <p class="texto">Correo</p>
+                    <input class="i_grande" type="email" value="" placeholder="correo_de_ejemplo@mail.com">
+                </div>
+                <div class="wea wea4">
+                    <p class="texto">Mensaje</p>
+                    <input class="i_grande mensaje" type="text" value="" placeholder="Tu mensaje">
+                </div>
+            </div>
+            <button class="boton" type="submit">Enviar</button>
+        </div>
+    </div>
+</body>
+
+</html>
